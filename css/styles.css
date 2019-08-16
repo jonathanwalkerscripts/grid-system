@@ -1,0 +1,13 @@
+.col {
+    background-color: #eeeeee;
+    border: 1px solid gray;
+    height: 2.5em;
+    margin: 10px 0px 5px 0px;
+}
+
+.header {
+    background-color: blue;
+    height: 100px;
+    width: 600px;
+    
+}

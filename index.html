@@ -9,10 +9,24 @@
     <!-- My StyleSheet -->
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
     <title>Grid System Practice</title>
+
+    <style>
+      body {
+        background-color: lightgreen;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+      </style>
 </head>
 <body>
 
-    <div class="container"><div class="row">
+
+
+    <!-- <div class="container"><div class="row">
             <div class="col col-md-1">.col-md-1</div>
             <div class="col col-md-1">.col-md-1</div>
             <div class="col col-md-1">.col-md-1</div>
@@ -37,12 +51,29 @@
           </div>
           <div class="row">
             <div class="col col-md-6">.col-md-6</div>
-            <div class="col col-md-6">.col-md-6</div>
-          </div></div>
+            <div class="col col-md-6">.col-md-6</div> -->
+        
 
           <!-- Take Home -->
+
+           
+          <div class="container-fluid"><div class="row"></div>
+          
+          
+          <div class="container"></div>
           <h1 class="header">Header</h1>
-          <div class="col col-md-6">.col-md-6</div>
+          <nav class="nav-bar">Nav</nav>
+          <div class="col1 col-md-6">Content</div>
+          <div class="col2 col-md-6">Aside</div>
+          <div class="col3 col-md-1">Promo</div>
+          <div class="col3 col-md-1">Promo</div>
+          <div class="col3 col-md-1">Promo</div>
+          <div class="col3 col-md-1">Promo</div>
+          <footer class="footer">Footer</footer>
+         </div>
+         
+         
+        
 
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
